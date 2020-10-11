@@ -1,4 +1,6 @@
 import React from 'react';
+import { Redirect } from 'react-router'
+
 import './App.scss';
 import { Header } from './components/header';
 
