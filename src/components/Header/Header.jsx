@@ -1,5 +1,4 @@
 import React from 'react'
-import { Redirect } from 'react-router'
 import { Link } from "react-router-dom"
 
 import './Header.scss'
@@ -14,11 +13,9 @@ export function Header() {
                 Mi intención es formarme y realizarme en esta profesión.</p>
 
             <div className='links'>
-                <Redirect to='/'>
-                    <Link to='' className='links__route'>FORMACION</Link>
-                    <Link to='' className='links__route'>CONOCIMIENTOS</Link>
-                    <Link to='' className='links__route'>ENLACES</Link>
-                </Redirect>
+                    <Link to='/formation' className='links__route'>FORMACION</Link>
+                    <Link to='/knowledge' className='links__route'>CONOCIMIENTOS</Link>
+                    <Link to='/links' className='links__route'>ENLACES</Link>
                 
             </div>
             

@@ -1,6 +1,7 @@
 import React from 'react'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-import { Redirect } from 'react-router'
+
 import { Header } from './components/Header'
 import { Formation } from './components/Formation'
 import { Knowledge } from './components/Knowledge'
@@ -10,14 +11,24 @@ import './App.scss'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Header />
-        <Formation />
-        <Knowledge />
-        <Links />
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <header className="App-header">
+          <Header />
+          <Switch>
+            <Route exact path='/formation'>
+              <Formation />
+            </Route>
+            <Route exact path='/knowledge'>
+              <Knowledge />
+            </Route>
+            <Route exact path='/links'>
+              <Links />
+            </Route>
+          </Switch>
+        </header>
+      </div>
+    </BrowserRouter>
   );
 }
 
