@@ -6,6 +6,7 @@ import { Header } from './components/Header'
 import { Formation } from './components/Formation'
 import { Knowledge } from './components/Knowledge'
 import { Links } from './components/Links'
+// import { Card } from './components/Card'
 
 import './App.scss'
 
@@ -15,17 +16,19 @@ function App() {
       <div className="App">
         <header className="App-header">
           <Header />
-          <Switch>
-            <Route exact path='/formation'>
+          <Knowledge />
+          {/* <Switch> */}
+            {/* <Card /> */}
+            {/* <Route exact path='/formation'>
               <Formation />
             </Route>
             <Route exact path='/knowledge'>
-              <Knowledge />
+              
             </Route>
             <Route exact path='/links'>
               <Links />
             </Route>
-          </Switch>
+          </Switch> */}
         </header>
       </div>
     </BrowserRouter>
