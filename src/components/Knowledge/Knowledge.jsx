@@ -12,12 +12,12 @@ export function Knowledge() {
         })
 
         return (
-          <div onClick={() => set(state => !state)}>
-            <a.div class="c back" style={{ opacity: opacity.interpolate(o => 1 - o), transform }}>
+          <div onClick={() => set(state => !state)} class='containerKnow'>
+            <a.div class="c backKnow" style={{ opacity: opacity.interpolate(o => 1 - o), transform }}>
            <h2>Conocimientos</h2>
            
             </a.div>
-            <a.div class="c front" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }}>
+            <a.div class="c frontKnow" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }}>
             <div>
                 <h2 className='letters'>
                     JavaScript
