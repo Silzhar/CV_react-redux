@@ -17,6 +17,8 @@ function App() {
         <header className="App-header">
           <Header />
           <Knowledge />
+          <Links />
+
           {/* <Switch> */}
             {/* <Card /> */}
             {/* <Route exact path='/formation'>
@@ -26,7 +28,6 @@ function App() {
               
             </Route>
             <Route exact path='/links'>
-              <Links />
             </Route>
           </Switch> */}
         </header>
