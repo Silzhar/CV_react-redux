@@ -1,38 +1,29 @@
-import React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import React from 'react';
 
-
-import { Header } from './components/Header'
-import { Formation } from './components/Formation'
-import { Knowledge } from './components/Knowledge'
-import { Links } from './components/Links'
+import { Formation } from './components/Formation';
+import { Knowledge } from './components/Knowledge';
+import { Links } from './components/Links';
 // import { Card } from './components/Card'
 
-import './App.scss'
+import './App.scss';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <header className="App-header">
-          <Header />
+    <div className="App">
+      <div className="App__content">
+        <h1>Luis Ruiz Fernández</h1>
+        <p>
+          Desde que descubrí la programación dedico todo el tiempo posible a
+          aprender, es algo que me resulta a la par interesante y entretenido.
+          Mi intención es formarme y realizarme en esta profesión.
+        </p>
+        <div className="App__cards">
           <Knowledge />
           <Links />
-
-          {/* <Switch> */}
-            {/* <Card /> */}
-            {/* <Route exact path='/formation'>
-              <Formation />
-            </Route>
-            <Route exact path='/knowledge'>
-              
-            </Route>
-            <Route exact path='/links'>
-            </Route>
-          </Switch> */}
-        </header>
+          <Formation />
+        </div>
       </div>
-    </BrowserRouter>
+    </div>
   );
 }
 
