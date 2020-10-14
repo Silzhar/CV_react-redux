@@ -1,54 +1,36 @@
-html,
-body,
-#root {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  user-select: none;
-  background: #f0f0f0;
-  
-}
-
-#root > div {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.container {
-  position: absolute;
-  right: 800px;
-    
+.containerFormation {
+  position: relative;
+  height: 300px;
+  width: 300px;
 }
 
 .c {
-  // max-width: 400px;
-  // max-height: 400px;
-  width: 50ch;
-  height: 50ch;
+  height: 300px;
+  width: 300px;
   cursor: pointer;
   will-change: transform, opacity;
 }
 
 .frontForm,
 .backForm {
-  position: absolute;
   background-size: cover;
-  background-color: #d17c7c;
-
+  border-radius: 20px;
+  border: 1px solid hsla(0, 0%, 34%, 0.178);
+  box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.75);
 }
 
 .backForm {
-    position: absolute;
-
+  position: absolute;
+  max-height: 300px;
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .frontForm {
   position: absolute;
-
+  width: 300px;
+  height: 300px;
+  
 }

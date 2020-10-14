@@ -1,59 +1,36 @@
-html,
-body,
-#root {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  user-select: none;
-  background: #f0f0f0;
-  
-}
-
-#root > div {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
 .container {
-  position: absolute;
-  right: 400px;
-  margin-bottom: -120px;
+  position: relative;
+  height: 300px;
+  width: 300px;
 }
 
 .c {
-//   max-width: 400px;
-//   max-height: 400px;
-  width: 50ch;
-  height: 50ch;
+  height: 300px;
+  width: 300px;
   cursor: pointer;
   will-change: transform, opacity;
 }
 
 .frontLinks,
 .backLinks {
-  position: absolute;
   background-size: cover;
   border-radius: 20px;
-  background-color: hsl(0, 6%, 79%);
   border: 1px solid hsla(0, 0%, 34%, 0.178);
-  box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .backLinks {
   position: absolute;
   max-height: 300px;
   max-width: 300px;
+ 
 }
 
 .frontLinks {
   position: absolute;
-  max-height: 80px;
+  max-height: 300px;
   max-width: 300px;
-  // background-image: url(https://images.unsplash.com/photo-1540206395-68808572332f?ixlib=rb-1.2.1&w=1181&q=80&auto=format&fit=crop);
 }

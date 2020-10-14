@@ -11,9 +11,14 @@ export function Formation() {
     config: { mass: 5, tension: 500, friction: 80 },
   });
   return (
-    <div onClick={() => set(state => !state)}>
-    <a.div class="c backForm" style={{ opacity: opacity.interpolate(o => 1 - o), transform }} />
-    <a.div class="c frontForm" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }} />
+    <div onClick={() => set(state => !state)} class='containerFormation'>
+    <a.div class="c backForm" style={{ opacity: opacity.interpolate(o => 1 - o), transform }}>
+    <h2>Formación</h2>
+    </a.div>
+
+
+    <a.div class="c frontForm" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }}>
+    </a.div>
   </div>
   );
 }

@@ -11,41 +11,34 @@ export function Knowledge() {
           config: { mass: 5, tension: 500, friction: 80 }
         })
 
-        // const classToModify = "c frontKnow"
-        // const classCompleteWindow = `c frontKnow ${flipped ? 'flipped' : ''}`
-
-
         return (
           <div onClick={() => set(state => !state)} class='containerKnow'>
             <a.div class="c backKnow" style={{ opacity: opacity.interpolate(o => 1 - o), transform }}>
            <h2>Conocimientos</h2>
            
-          {/* {classToModify ? '' : classCompleteWindow } */}
-
             </a.div>
             <a.div class="c frontKnow" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }}>
-            <div>
-                <h2 className='letters'>
-                    JavaScript
-                    Html5
-                    CSS
-                    React
-                    Angular
-                    Python
-                    NodeJS
-                    PHP
-                </h2>
-
-                <h4>
-                    Git
-                    MySQL
-                    MongoDB
-                    Docker
-                    Ubuntu, Linux
-                    Lua
-                    POO
-                    Visual Studio Code
-                </h4>
+            <div class='containerKnow__letters'>
+              <div class='containerKnow__priorotary'>
+                <p>JavaScript</p>
+                <p> Html5</p>
+                <p>CSS</p>
+                <p>React</p>
+                <p>Angular</p>
+                <p>Python</p>
+                <p>NodeJS</p>
+                <p>PHP</p>
+              </div>
+              
+              <div class='containerKnow__relative'>
+                <p>Git</p>
+                <p>MySQL</p>
+                <p>Docker</p>
+                <p>Ubuntu, Linux</p>
+                <p>Lua</p>
+                <p>POO</p>
+                <p>Visual Studio Code</p>
+              </div>
             </div>
       
             </a.div>
