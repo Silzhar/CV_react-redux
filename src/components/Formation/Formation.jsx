@@ -18,6 +18,11 @@ export function Formation() {
 
 
     <a.div class="c frontForm" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }}>
+      <p>Bootcamp FullStack (Upgrade-Hub) Noviembre 2019 - Julio 2020</p>
+      <p>Bootcamp aprende a programar desde cero (KeepCoding) Julio - Septiembre 2019</p>
+      <p>Curso Fundamentos de la Programación de Python (KeepCoding) Marzo - Junio 2019</p>
+      <p>Curso Programación moderna con Python (KeepCoding) Enero - Marzo 2019</p>
+      <p>Curso Lua (KeepCoding) Noviembre - Diciembre 2018</p>
     </a.div>
   </div>
   );
