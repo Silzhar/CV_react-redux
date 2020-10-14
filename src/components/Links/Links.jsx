@@ -29,6 +29,9 @@ export function Links() {
                 <p>
                   <a href=''>GITLAB</a>
                 </p>
+                <p>
+                  <a href=''>CODIANT</a>
+                </p>
             </div>
       
             </a.div>

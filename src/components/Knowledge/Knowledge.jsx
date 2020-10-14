@@ -11,11 +11,17 @@ export function Knowledge() {
           config: { mass: 5, tension: 500, friction: 80 }
         })
 
+        // const classToModify = "c frontKnow"
+        // const classCompleteWindow = `c frontKnow ${flipped ? 'flipped' : ''}`
+
+
         return (
           <div onClick={() => set(state => !state)} class='containerKnow'>
             <a.div class="c backKnow" style={{ opacity: opacity.interpolate(o => 1 - o), transform }}>
            <h2>Conocimientos</h2>
            
+          {/* {classToModify ? '' : classCompleteWindow } */}
+
             </a.div>
             <a.div class="c frontKnow" style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }}>
             <div>

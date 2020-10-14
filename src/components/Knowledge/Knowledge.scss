@@ -22,7 +22,7 @@ body,
 
 .containerKnow {
   position: absolute;
-  right: 800px;
+  right: 200px;
   margin-bottom: -120px;
     
 }
@@ -38,23 +38,39 @@ body,
 
 .frontKnow,
 .backKnow {
-  position: absolute;
+  position: relative;
   background-size: cover;
   border-radius: 20px;
   background-color: hsl(0, 6%, 79%);
-  border: 1px solid rgb(87, 87, 87);
+  border: 1px solid hsla(0, 0%, 34%, 0.178);
   box-shadow: 10px 10px 4px 0px rgba(0,0,0,0.75);
 }
 
 .backKnow {
-  position: absolute;
+  // position: absolute;
   max-height: 80px;
   max-width: 390px;
 }
 
 .frontknow {
+  // position: absolute;
+
   margin-top: 0;
-  max-height: 300px;
-  max-width: 300px;
+  // max-height: 300px;
+  // max-width: 300px;
+  width: 100%;
+  height: 100%;
+  // position: fixed;
+  top: 0;
+  left: 0;
+
   // background-image: url(https://images.unsplash.com/photo-1540206395-68808572332f?ixlib=rb-1.2.1&w=1181&q=80&auto=format&fit=crop);
 }
+
+// .flipped {
+//   width: 100%;
+//   height: 100%;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+// }
