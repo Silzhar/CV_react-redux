@@ -7,9 +7,14 @@ import { Links } from './components/Links';
 
 import './App.scss';
 
+const imgUrl = 
+"https://raw.githubusercontent.com/Silzhar/cv-html/master/img/boootcamp-pic.jpeg"
+
 function App() {
   return (
-    <div className="App">
+    <div className='background'>
+      {/* <img className="Header_avatar" src={imgUrl} alt="" srcset=""/> */}
+      <div className="App">
       <div className="App__content">
         <h1>Luis Ruiz Fernández</h1>
         <p>
@@ -24,6 +29,8 @@ function App() {
         </div>
       </div>
     </div>
+    </div>
+    
   );
 }
 

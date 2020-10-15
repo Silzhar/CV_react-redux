@@ -1,9 +1,15 @@
+.background {
+  
+  // opacity: 0.5;
+}
+
 .App {
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  
   
   &__content {
     border: 1px solid hsla(0, 0%, 34%, 0.178);
