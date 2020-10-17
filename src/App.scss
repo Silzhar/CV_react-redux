@@ -3,6 +3,14 @@
   // opacity: 0.5;
 }
 
+@font-face {
+  font-family: 'Sansita Swashed';
+  font-style: normal;
+  font-weight: 400px;
+  src: url('./fonts/SansitaSwashed-Regular.ttf');
+  src: local('Sansita Swashed Regular'), local('SansitaSwashed-Regular');
+}
+
 .App {
   text-align: center;
   display: flex;
