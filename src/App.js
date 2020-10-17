@@ -13,10 +13,11 @@ const imgUrl =
 function App() {
   return (
     <div className='background'>
-      {/* <img className="Header_avatar" src={imgUrl} alt="" srcset=""/> */}
       <div className="App">
       <div className="App__content">
-        <h1>Luis Ruiz Fernández</h1>
+      <img className="App__photo" src={imgUrl} alt="" srcset=""/>
+
+        <h1 className="App__name">Luis Ruiz Fernández</h1>
         <p>
           Desde que descubrí la programación dedico todo el tiempo posible a
           aprender, es algo que me resulta a la par interesante y entretenido.
