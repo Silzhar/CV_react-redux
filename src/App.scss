@@ -49,3 +49,37 @@
     justify-content: space-between;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .App {
+    display: block;
+
+    &__content {
+      width: 86%;
+
+    }
+
+    &__cards {
+      display: block;
+      
+    }
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  
+  .App {
+    display: block;
+
+    &__content {
+      width: 86%;
+
+    }
+
+    &__cards {
+      display: block;
+      padding: 1rem;
+    }
+  }
+}
