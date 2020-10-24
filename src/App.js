@@ -20,7 +20,7 @@ function App() {
         <h1 className="App__name">Luis Ruiz Fernández</h1>
         <p>
         Persigo adaptar los conocimientos de alta calidad junto 
-        con la orientación al cliente para derarrolar apps y funcionalidades estables.
+        con la orientación al cliente para desarrollar apps y funcionalidades estables.
         </p>
         <div className="App__cards">
           <Knowledge />
