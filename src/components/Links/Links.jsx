@@ -21,16 +21,16 @@ export function Links() {
             <a.div class="c backLinks " style={{ opacity, transform: transform.interpolate(t => `${t} rotateX(180deg)`) }}>
             <div>
                 <p>
-                 <a href='https://www.linkedin.com/in/luisruizfer/'>LINKEDIN</a>
+                 <a href='https://www.linkedin.com/in/luisruizfer/' target="_blank" rel="noopener noreferrer">LINKEDIN</a>
                 </p>
                 <p>
-                  <a href='https://github.com/Silzhar'>GITHUB</a>
+                  <a href='https://github.com/Silzhar' target="_blank" rel="noopener noreferrer">GITHUB</a>
                 </p>
                 <p>
-                  <a href='https://gitlab.com/Silzhar'>GITLAB</a>
+                  <a href='https://gitlab.com/Silzhar' target="_blank" rel="noopener noreferrer">GITLAB</a>
                 </p>
                 <p>
-                  <a href='https://awesome-knuth-558093.netlify.app/'>CODIANT</a>
+                  <a href='https://awesome-knuth-558093.netlify.app/' target="_blank" rel="noopener noreferrer">CODIANT</a>
                 </p>
             </div>
       
